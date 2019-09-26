@@ -1,4 +1,7 @@
 #Module 8
+
+##https://difiore.github.io/applied-data-analysis-s2019/module-08/module-08.html
+
 ##I will do module 8 here
 f <- file.choose()
 f

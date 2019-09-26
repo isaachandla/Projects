@@ -1,4 +1,7 @@
 #Module 7
+
+##https://difiore.github.io/applied-data-analysis-s2019/module-07/module-07.html
+
 m <- matrix(data = c(1, 2, 3, 4), nrow = 2, ncol = 2)
 m
 ##a matrix is, essentially, a single vector that is split either into multiple columns or multiple rows of the same length.

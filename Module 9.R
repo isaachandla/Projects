@@ -1,5 +1,7 @@
 #Module 9
 
+https://difiore.github.io/applied-data-analysis-s2019/module-09/module-09.html
+
 #Concept Review
 ##Summary statistics: summary(), skim()
 ##Basic plotting: boxplot(), barplot(), histogram()
