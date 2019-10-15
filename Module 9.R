@@ -1,4 +1,4 @@
-#Module 9
+#Module 9 Exploratory Data Analysis
 
 ##https://difiore.github.io/applied-data-analysis-s2019/module-09/module-09.html
 
@@ -196,6 +196,8 @@ s <- skim_to_wide(d)  # formats results to a wide table
 # here we make use of the `%>%` operator and {dplyr} verbs... se below
 s %>% filter(variable == "Scientific_Name" | type == "numeric") %>% select(-type, 
                                                                            -n, -n_unique, -empty) %>% kable() %>% kable_styling(font_size = 10)
+table(d$Family)
+
 detach(package:skimr)
 detach(package:kableExtra)
 

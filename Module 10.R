@@ -90,6 +90,10 @@ pop_v <- function(x) {
 }
 pop_v(x)
 
+x <- 1:100
+
+pop_v(x)
+
 
 ##sample: Sample Variance 
 ##(an estimator of the population variance) = sum of squares / (n - 1)
@@ -215,7 +219,7 @@ v <- var(x)
 s <- sd(x)  # or...
 s <- sqrt(v)
 e <- sqrt(v/n)  # st error of the mean based on our sample
-upper <- mean(x) + qnorm(0.975, mean = 0, sd = 1) * se(x)
+supper <- mean(x) + qnorm(0.975, mean = 0, sd = 1) * se(x)
 lower <- mean(x) + qnorm(0.025, mean = 0, sd = 1) * se(x)  # or lower <- mean(x) - qnorm(0.975)*se(x)
 ci <- c(lower, upper)
 ci
@@ -241,7 +245,7 @@ normalCI = function(x, CIlevel = 0.95) {
   return(ci)
 }
 
-
+normalCI
 #Interpretation of CIs:
   
   ##Based on the given data (with a particular mean, variance, and sample size),
